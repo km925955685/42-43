@@ -1,0 +1,27 @@
+<html>
+    <head>
+
+    </head>
+
+    <script>
+        function Person( IdNumber,name,wage){
+            this.IdNumber=IdNumber;
+            this.name =name;
+            this.wage=wage;
+            this.kuma="kuma"
+
+        }
+        
+        function Waiter(IdNumber,name,wage,dish){
+            Person.call(this,IdNumber,name,wage);
+            
+        }
+        Waiter.prototype.work =function(){
+        
+        }
+        /*var wai= new Waiter(0,"bob")
+        console.log(wai)*/
+
+ 
+    </script>
+</html>
